@@ -1,0 +1,1 @@
+select ID,Title,SigImage,datecreated from Sketches  where (cast(datecreated as date) between cast('4/23/2015 8:56:51 PM' as date) and  cast('4/23/2015 8:56:51 PM' as date)) order by datecreated desc
